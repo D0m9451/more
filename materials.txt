@@ -1,0 +1,16 @@
+Components	Purpose
+ESP32 dev board (Wroom, Wrover, S3):		Core processor
+
+1.3”–2.4” TFT or OLED display:			Menu UI
+
+IR LED:						TV-B-Gone style IR blaster
+
+433/868 MHz sub-GHz module (CC1101, SX1278):	Sub-GHz replay/jam
+
+SD card reader module:				Config/log storage
+
+LiPo battery + charger module (TP4056):		Portable power
+
+3–5 tactile buttons or rotary encoder:		UI navigation
+
+USB HID support (ESP32-S3):			BadUSB keyboard/mouse injection
